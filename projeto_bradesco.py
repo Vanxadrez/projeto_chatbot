@@ -73,7 +73,7 @@ print(transcription)
 
 from google import genai
 
-client = genai.Client(api_key="AIzaSyCb_os7-n7lHTzRqNy3hQvVKrfhYuypC7E")
+client = genai.Client(api_key="chave da API")
 
 # O ajuste principal está aqui no nome do modelo
 response = client.models.generate_content(
